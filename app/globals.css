@@ -75,8 +75,8 @@ li{
 
 .avatar{
   border-radius: 100%;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   border: 3px solid var(--color-dark-primary);
 }
 
@@ -128,7 +128,12 @@ li{
       min-height: 100vh;
       display: flex;
       align-items: center;
-}
+  } 
+
+  .avatar{
+    width: 300px;
+    height: 300px;
+  }
 
 
 }

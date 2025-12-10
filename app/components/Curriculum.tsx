@@ -17,10 +17,9 @@ export default function Curriculum() {
 
     const handleModal = () => setModal(!modal)
 
-    const ICON_SIZE = 30
 
     return (
-        <section className="grey_bg p-5 fullheight" id="welcome">
+        <section className="grey_bg py-5 px-3 px-md-5 fullheight" id="welcome">
 
             <CvModal show={modal} handleClose={() => setModal(false)} />
 

@@ -12,7 +12,7 @@ export default function Services() {
     ]
 
     return (
-        <section className="primary_bg p-5 fullheight" id="services">
+        <section className="primary_bg py-5 px-3 px-md-5  fullheight" id="services">
 
             <Container>
 
