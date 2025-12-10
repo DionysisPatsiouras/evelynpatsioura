@@ -8,16 +8,21 @@ import Image from "next/image"
 import { Container, Stack } from 'react-bootstrap'
 import CvModal from "./CvModal"
 
+
+import { CursorSVG } from "../svg/Cursor"
+
 export default function Curriculum() {
 
     const [modal, setModal] = useState<boolean>(false)
 
     const handleModal = () => setModal(!modal)
 
+    const ICON_SIZE = 30
+
     return (
         <section className="grey_bg p-5 fullheight" id="welcome">
 
-            <CvModal show={modal} handleClose={() => setModal(false)}/>
+            <CvModal show={modal} handleClose={() => setModal(false)} />
 
             <Container>
 
@@ -41,8 +46,10 @@ export default function Curriculum() {
                         των πόρων σας — είτε πρόκειται για διαχείριση άγχους και στρες, σχέσεων ή αλλαγών ζωής.
                     </p>
 
-                    <div onClick={handleModal}>
+
+                    <div onClick={handleModal} style={{ cursor: 'pointer' }} className="d-flex flex-column align-items-center">
                         <h6 className="dark_primary_text">ΠΛΗΡΕΣ ΒΙΟΓΡΑΦΙΚΟ</h6>
+                        <CursorSVG />
                     </div>
                 </Stack>
             </Container>

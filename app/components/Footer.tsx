@@ -5,9 +5,9 @@ export default function Footer() {
     const currentYear = new Date().getFullYear()
 
     return (
-        <footer >
+        <footer>
 
-            <Stack gap={4} className="d-flex flex-column align-items-center primary_bg py-5 text-center">
+            <Stack gap={4} className="d-flex flex-column align-items-center dark_bg py-5 text-center">
 
                 <div>
                     <h1 className='white-text' style={{ fontSize: "45px", letterSpacing: '10px' }}>ΕΒΕΛΥΝ ΠΑΤΣΙΟΥΡΑ</h1>
@@ -15,11 +15,12 @@ export default function Footer() {
                 </div>
 
                 <div>
-
                     <p className="white-text mb-3">COPYRIGHTS © {currentYear} | EVELYN PATSIOURA</p>
-                    <p className="white-text">design & development: Dionysis Patsiouras</p>
+                    <p className="white-text m-0">design & development: Dionysis Patsiouras</p>
                 </div>
+
             </Stack>
+            
         </footer>
     )
 }

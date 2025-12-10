@@ -9,11 +9,15 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@hookform/resolvers": "^5.2.2",
     "bootstrap": "^5.3.8",
     "next": "16.0.7",
     "react": "19.2.0",
     "react-bootstrap": "^2.10.10",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "react-hook-form": "^7.68.0",
+    "yup": "^1.7.1"
   },
   "devDependencies": {
     "@types/node": "^20",

@@ -7,16 +7,15 @@ import Footer from './components/Footer'
 
 
 export default function Home() {
+
   return (
 
     <main>
-
       <Welcome />
       <Curriculum />
       <Services />
       <Contact />
       <Footer />
-
     </main>
 
   )
