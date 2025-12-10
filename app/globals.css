@@ -1,0 +1,146 @@
+
+
+:root {
+    --color-primary: #A3B494;
+    --color-dark-primary: #359A8A;
+    --color-grey-background: #EFF1F0;
+}
+
+
+@font-face {
+  font-family: "ViaodaLibre";
+  src: url("/fonts/ViaodaLibre-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SofiaSans";
+  src: url("/fonts/SofiaSansExtraCondensed-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+*{
+  list-style-type: none;
+  font-family: SofiaSans;
+  letter-spacing: 1.3px;
+  line-height: 120%;
+  font-size: 20px;
+  color: var(--color-primary)
+}
+
+.secondary-font{
+  font-family: ViaodaLibre;
+  letter-spacing: 0px;
+}
+
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+
+
+li{
+  cursor: pointer;
+  font-size: 22px;
+}
+
+
+.background{
+  background-image: url("/images/welcome.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grey_bg{
+  background-color: var(--color-grey-background);
+}
+
+.primary_bg{
+  background-color: var(--color-primary);
+}
+.primary_text{
+  color: var(--color-primary)
+}
+.dark_primary_text{
+   color: var(--color-dark-primary)
+}
+
+
+.avatar{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+  border: 3px solid var(--color-dark-primary);
+}
+
+.white-text{
+  color: #ffffff;
+}
+
+.fullheight{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+
+/* MODAL */
+
+.modal-content{
+  border-radius: 3px !important;
+}
+
+.modal-header{
+  border-bottom: none !important;
+}
+
+.modal-header .btn-close{
+  font-size: 10px;
+}
+
+.modalButton{
+  background-color: var(--color-primary) !important;
+  border: none !important;
+}
+
+.modal-footer{
+  border-top: none !important;
+  justify-content: flex-start !important;
+}
+
+
+@media screen and ( min-width: 768px ){
+    
+
+  .fullheight{
+      height: 100vh;
+      display: flex;
+      align-items: center;
+}
+
+
+}
+
+::-webkit-scrollbar{
+  width: 7px;
+  height: 7px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb{
+  background: var(--color-primary);
+  /* border-radius: 20px; */
+}
+    
+::-webkit-scrollbar-thumb:hover{
+  background: var(--color-dark-primary);
+}
+    
