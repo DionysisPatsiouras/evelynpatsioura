@@ -8,6 +8,8 @@
 
 
 
+
+// This is REQUIRED for digital ocean to
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
