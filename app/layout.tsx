@@ -4,6 +4,8 @@ import "./globals.css"
 
 import "bootstrap/dist/css/bootstrap.min.css"
 
+import GoogleAnalytics from "./components/GoogleAnalytics"
+
 
 
 export const metadata: Metadata = {
@@ -54,6 +56,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <GoogleAnalytics />
       </body>
     </html>
   )
