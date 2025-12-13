@@ -11,16 +11,21 @@ export default function Footer() {
 
                 <div>
                     <h1 className='white-text' style={{ fontSize: "45px", letterSpacing: '10px' }}>ΕΒΕΛΥΝ ΠΑΤΣΙΟΥΡΑ</h1>
-                    <h4 className='white-text secondary-font' style={{fontSize: '30px'}}>ΨΥΧΟΛΟΓΟΣ (BSc)</h4>
+                    <h4 className='white-text secondary-font' style={{ fontSize: '30px' }}>ΨΥΧΟΛΟΓΟΣ (BSc)</h4>
                 </div>
 
                 <div>
                     <p className="white-text mb-3">COPYRIGHTS © {currentYear} | EVELYN PATSIOURA</p>
-                    <p className="white-text m-0">design & development: Dionysis Patsiouras</p>
+                    <p className="white-text m-0">
+
+                        <a href="https://www.linkedin.com/in/dionysisp/" target="_blank">
+                            design & development: Dionysis Patsiouras
+                        </a>
+                    </p>
                 </div>
 
             </Stack>
-            
+
         </footer>
     )
 }

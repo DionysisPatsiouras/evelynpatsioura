@@ -69,7 +69,7 @@ export default function Contact() {
 
 
     return (
-        <section className="py-5 px-3 px-md-5  fullheight" id="contact">
+        <section className="py-5 px-3 px-md-5 fullheight" id="contact">
 
             <Container>
 

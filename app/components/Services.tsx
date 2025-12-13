@@ -30,7 +30,7 @@ export default function Services() {
                             ))}
                     </div>
 
-                    <h4 className='white-text'>
+                    <h4 className='white-text text-center'>
                         «Μικρά βήματα — μεγάλες αλλαγές.»
                     </h4>
 

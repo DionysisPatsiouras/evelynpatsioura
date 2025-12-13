@@ -8,7 +8,7 @@ export default function Welcome() {
 
                 <Col className='d-flex flex-row justify-content-center justify-content-md-between'>
 
-                    <h1 className='dark_primary_text' style={{ fontSize: "60px" }}>ΕΒΕΛΥΝ ΠΑΤΣΙΟΥΡΑ</h1>
+                    <h1 className='dark_primary_text text-center' style={{ fontSize: "60px" }}>ΕΒΕΛΥΝ ΠΑΤΣΙΟΥΡΑ</h1>
 
                     <nav className='d-none d-md-flex'>
                         <ul className='d-flex gap-4 dark_primary_text'>
