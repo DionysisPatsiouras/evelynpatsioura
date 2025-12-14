@@ -9,7 +9,7 @@ import GoogleAnalytics from "./components/GoogleAnalytics"
 
 
 export const metadata: Metadata = {
-  title: "Έβελυν Πατσιούρα- Ψυχολόγος (BSc)",
+  title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc)",
   description: "Ψυχολογική υποστήριξη και συμβουλευτική από την Έβελυν Πατσιούρα, πτυχιούχο ψυχολόγο. Εξειδίκευση σε άγχος, κατάθλιψη και προσωπική ανάπτυξη.",
   openGraph: {
     title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc)",

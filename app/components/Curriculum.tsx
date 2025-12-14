@@ -29,16 +29,16 @@ export default function Curriculum() {
 
                     <h2 className="dark_primary_text secondary-font">ΒΙΟΓΡΑΦΙΚΟ</h2>
 
-                    <Image
+                    {/* <Image
                         className="avatar"
                         src={"/images/avatar.jpg"}
                         alt="avatar"
                         width={1200}
                         height={1200}
-                    />
+                    /> */}
 
                     <p className="text-center dark_primary_text" style={{ fontSize: '26px' }}>
-                        Είμαι κλινική ψυχολόγος με σεβασμό και ζεστασιά προς κάθε άνθρωπο που με εμπιστεύεται·
+                        Είμαι ψυχολόγος με σεβασμό και ζεστασιά προς κάθε άνθρωπο που με εμπιστεύεται·
                         στηρίζομαι σε επιστημονικά τεκμηριωμένες μεθόδους και εξατομικευμένη προσέγγιση,
                         ώστε να κατανοήσουμε μαζί τις προκλήσεις σας και να χτίσουμε πρακτικές στρατηγικές για καλύτερη
                         ποιότητα ζωής. Εργάζομαι με ενσυναίσθηση, εχεμύθεια και σαφή στόχο την ενδυνάμωση
@@ -46,10 +46,11 @@ export default function Curriculum() {
                     </p>
 
 
-                    <div onClick={handleModal} style={{ cursor: 'pointer' }} className="d-flex flex-column align-items-center">
+                    {/* <div onClick={handleModal} style={{ cursor: 'pointer' }} className="d-flex flex-column align-items-center">
                         <h6 className="dark_primary_text">ΠΛΗΡΕΣ ΒΙΟΓΡΑΦΙΚΟ</h6>
                         <CursorSVG />
-                    </div>
+                    </div> */}
+
                 </Stack>
             </Container>
 
