@@ -29,27 +29,32 @@ export default function Curriculum() {
 
                     <h2 className="dark_primary_text secondary-font">ΒΙΟΓΡΑΦΙΚΟ</h2>
 
-                    {/* <Image
+                    <Image
                         className="avatar"
                         src={"/images/avatar.jpg"}
                         alt="avatar"
                         width={1200}
                         height={1200}
-                    /> */}
+                    />
 
                     <p className="text-center dark_primary_text" style={{ fontSize: '26px' }}>
-                        Είμαι ψυχολόγος με σεβασμό και ζεστασιά προς κάθε άνθρωπο που με εμπιστεύεται·
-                        στηρίζομαι σε επιστημονικά τεκμηριωμένες μεθόδους και εξατομικευμένη προσέγγιση,
-                        ώστε να κατανοήσουμε μαζί τις προκλήσεις σας και να χτίσουμε πρακτικές στρατηγικές για καλύτερη
-                        ποιότητα ζωής. Εργάζομαι με ενσυναίσθηση, εχεμύθεια και σαφή στόχο την ενδυνάμωση
-                        των πόρων σας — είτε πρόκειται για διαχείριση άγχους και στρες, σχέσεων ή αλλαγών ζωής.
+                        Ονομάζομαι <strong>Έβελυν Πατσιούρα</strong>, είμαι Ψυχολόγος και κάτοχος άδειας ασκήσεως επαγγέλματος (2572/17-06-2020).
+                        <br></br>
+                        Απέκτησα πτυχίο Ψυχολογίας από το <strong>University of East London</strong>.
+                        Στα πλαίσια των προπτυχιακών μου σπουδών ολοκλήρωσα πρακτική άσκηση στην
+                        <br></br><strong>Ελληνική Εταιρία Νόσου Alzheimer </strong>
+                        όπου είχα την ευκαιρία να παρακολουθήσω και να συμμετάσχω σε προγράμματα μη φαρμακευτικών παρεμβάσεων
+                        για την αντιμετώπιση ήπιων και μειζόνων νοητικών διαταραχών, σε υποστηρικτικά προγράμματα
+                        για τους περιθάλποντες και στη χορήγηση νευροψυχολογικών δοκιμασιών για την άνοια.
                     </p>
 
 
-                    {/* <div onClick={handleModal} style={{ cursor: 'pointer' }} className="d-flex flex-column align-items-center">
+                    <div onClick={handleModal}
+                        style={{ cursor: 'pointer' }}
+                        className="d-flex flex-column align-items-center scaleUp">
                         <h6 className="dark_primary_text">ΠΛΗΡΕΣ ΒΙΟΓΡΑΦΙΚΟ</h6>
                         <CursorSVG />
-                    </div> */}
+                    </div>
 
                 </Stack>
             </Container>

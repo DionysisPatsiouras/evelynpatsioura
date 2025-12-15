@@ -5,17 +5,18 @@ import "./globals.css"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 import GoogleAnalytics from "./components/GoogleAnalytics"
+import ScrollToTop from "./components/ScrollToTop"
 
 
 
 export const metadata: Metadata = {
-  title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc)",
-  description: "Ψυχολογική υποστήριξη και συμβουλευτική από την Έβελυν Πατσιούρα, πτυχιούχο ψυχολόγο. Εξειδίκευση σε άγχος, κατάθλιψη και προσωπική ανάπτυξη.",
+  title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc, ΜΑ)",
+  description: "Παροχή συμβουλευτικής υποστήριξης και ατομική ψυχοθεραπεία σε εφήβους και ενήλικες σε ένα ασφαλές και υποστηρικτικό περιβάλλον με έμφαση στις μοναδικές ανάγκες του κάθε ατόμου. Έβελυν Πατσιούρα - Ψυχολόγος (BSc, ΜΑ",
   openGraph: {
-    title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc)",
+    title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc, ΜΑ)",
     description: "Ψυχολογική υποστήριξη και συμβουλευτική",
     url: "https://www.evelynpatsioura.gr",
-    siteName: "Έβελυν Πατσιούρα",
+    siteName: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc, ΜΑ)",
     // images: [
     //   {
     //     url: "/og-image.jpg",
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     type: "website",
   },
 
-  keywords: ["ψυχολόγος", "ψυχοθεραπεία", "συμβουλευτική", "άγχος", "κατάθλιψη"],
+  keywords: ["ψυχολόγος", "ψυχοθεραπεία", "συμβουλευτική", "άγχος", "κατάθλιψη", "διαχείριση άγχους", "κρίσεις πανικού", "φοβίες", "αυτοεκτίμηση", "cbt"],
   authors: [{ name: "Έβελυν Πατσιούρα" }],
   robots: {
     index: true,
@@ -44,11 +45,8 @@ export const metadata: Metadata = {
 
 }
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode }>) {
+
   return (
     <html lang="en">
       <head>
@@ -56,6 +54,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <ScrollToTop />
         <GoogleAnalytics />
       </body>
     </html>
