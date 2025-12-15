@@ -56,7 +56,7 @@ export default function Services() {
                     </div>
 
                     <h4 className='white-text text-center'>
-                        «Μικρά βήματα — μεγάλες αλλαγές.»
+                        «Τα εμπόδια δεν μπλοκάρουν το μονοπάτι, είναι το μονοπάτι»
                     </h4>
 
               
