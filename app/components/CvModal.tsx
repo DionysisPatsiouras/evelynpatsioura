@@ -34,7 +34,7 @@ export default function CvModal({ show, handleClose }: Props) {
                     βιωματικές ομάδες προσωπικής ανάπτυξης και εποπτευόμενη κλινική πρακτική. 
                     Επί του παρόντος, ολοκληρώνω την εξειδίκευσή μου στη <strong>Γνωστική Συμπεριφορική Θεραπεία</strong> 
                     παρακολουθώντας το πιστοποιημένο εκπαιδευτικό πρόγραμμα που παρέχει η Ελληνική Εταιρεία Έρευνας της Συμπεριφοράς 
-                    σύμφωνα με τα κριτήρια της <strong>ABCT (European Association for Behavioural and Cognitive Therapies)</strong>E. 
+                    σύμφωνα με τα κριτήρια της <strong>ΕΑBCT (European Association for Behavioural and Cognitive Therapies)</strong>E. 
                     
                     <br></br>
                     <br></br>
