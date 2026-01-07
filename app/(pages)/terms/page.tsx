@@ -1,5 +1,7 @@
 'use client'
 
+export const dynamic = 'force-static'
+
 import { Container, Col, Stack } from 'react-bootstrap'
 
 import Header from "@/app/components/Header"
