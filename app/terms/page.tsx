@@ -2,7 +2,7 @@
 
 import { Container, Col, Stack } from 'react-bootstrap'
 
-import Header from "../../components/Header"
+import Header from "@/app/components/Header"
 
 export default function Terms() {
 
