@@ -1,3 +1,5 @@
+'use client'
+
 import Header from "@/app/components/Header"
 
 import { Container, Stack } from "react-bootstrap"
