@@ -35,7 +35,7 @@ export default function Services() {
 
 
 
-            <section className="primary_bg py-5">
+            <section className="primary_bg py-5 px-md-0 px-3">
                 <Container>
 
                     <Stack gap={4}>

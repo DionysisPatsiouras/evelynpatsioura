@@ -52,6 +52,7 @@ export default function Services() {
                     <h2 className='white-text secondary-font'>ΥΠΗΡΕΣΙΕΣ</h2>
 
                     <div className="d-flex flex-column justify-content-center flex-md-row gap-5 text-center white-text">
+
                         {services
                             .map(({ icon, title, body }: ServiceType) => (
                                 <div key={`${title}-${body}`} className='col-12 col-md-3 d-flex flex-column  align-items-center'>
