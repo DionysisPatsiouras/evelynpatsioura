@@ -6,12 +6,12 @@ import "bootstrap/dist/css/bootstrap.min.css"
 
 import GoogleAnalytics from "./components/GoogleAnalytics"
 import ScrollToTop from "./components/ScrollToTop"
-
+import Footer from "./components/Footer"
 
 
 export const metadata: Metadata = {
   title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc, ΜΑ)",
-  description: "Παροχή συμβουλευτικής υποστήριξης και ατομική ψυχοθεραπεία σε εφήβους και ενήλικες σε ένα ασφαλές και υποστηρικτικό περιβάλλον με έμφαση στις μοναδικές ανάγκες του κάθε ατόμου. Έβελυν Πατσιούρα - Ψυχολόγος (BSc, ΜΑ",
+  description: "Παροχή συμβουλευτικής υποστήριξης και ατομικής ψυχοθεραπείας σε εφήβους και ενήλικες. Έβελυν Πατσιούρα – Ψυχολόγος (BSc, MA)",
   openGraph: {
     title: "Έβελυν Πατσιούρα - Ψυχολόγος (BSc, ΜΑ)",
     description: "Ψυχολογική υποστήριξη και συμβουλευτική",
@@ -54,6 +54,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
       </head>
       <body>
         {children}
+        <Footer />
         <ScrollToTop />
         <GoogleAnalytics />
       </body>

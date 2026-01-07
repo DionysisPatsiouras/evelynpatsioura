@@ -1,28 +1,20 @@
 'use client'
 
-import { useState } from "react"
 
 import { Container, Col } from "react-bootstrap"
-
-import TermsModal from "./TermsModal"
 
 
 export default function Footer() {
 
     const currentYear = new Date().getFullYear()
 
-    const [modal, setModal] = useState<boolean>(false)
-
-    const handleModal = () => setModal(!modal)
 
     return (
         <footer className="dark_bg">
 
-            <TermsModal show={modal} handleClose={handleModal}/>
-
             <Container>
 
-                <div className="d-flex flex-column flex-md-row align-items-start justify-content-center py-5 gap-3 gap-md-0">
+                <div className="d-flex flex-column flex-md-row align-items-start justify-content-xl-center justify-content-between py-5 gap-3 gap-md-0">
 
                     <Col xs={12} md={4} className="text-center text-md-start white-text">
 
@@ -36,9 +28,22 @@ export default function Footer() {
 
                     <Col xs={12} md={4} className="text-center text-md-end">
 
-                        <p className="white-text" style={{cursor: "pointer"}} onClick={handleModal}>ΟΡΟΙ ΣΥΝΕΡΓΑΣΙΑΣ</p>
+                        <ul>
+                            <li>
+                                <a href="/terms" className="white-text" style={{ cursor: "pointer" }}>
+                                    ΟΡΟΙ ΣΥΝΕΡΓΑΣΙΑΣ
+                                </a>
+                            </li>
+                            <li>
+                                <a href="/services" className="white-text" style={{ cursor: "pointer" }}>
+                                    ΥΠΗΡΕΣΙΕΣ
+                                </a>
+                            </li>
+                        </ul>
 
-                        <p className="white-text m-0">
+
+
+                        <p className="white-text mt-3">
 
                             <a href="https://www.linkedin.com/in/dionysisp/" target="_blank">
                                 design & development: Dionysis Patsiouras

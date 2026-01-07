@@ -52,6 +52,10 @@ li{
   color: var(--color-dark-primary);
 }
 
+/* header{
+  background-color:#a3b49475;
+} */
+
 .btn{
   transition: 0.7s !important;
 }
@@ -129,7 +133,7 @@ li{
 }
 
 .white-text{
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .fullheight{
@@ -180,6 +184,16 @@ li{
 .serviceIcon i {
   color: var(--color-primary);
   font-size: 30px;
+}
+
+
+.btn-success{
+  background-color: #12b96a !important;
+  border: none !important;
+}
+
+.btn-success:hover{
+  background-color: #109e5c !important;
 }
 
 /* MODAL */

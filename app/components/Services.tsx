@@ -29,6 +29,19 @@ export default function Services() {
         },
     ]
 
+    const truncate = (text: string) => {
+
+        const WORD_THRESHOLD = 150
+
+        const truncatedText = text.length > WORD_THRESHOLD
+            ? text.slice(0, WORD_THRESHOLD) + '...'
+            : text
+
+        return <div dangerouslySetInnerHTML={{ __html: truncatedText }} className='white-text' />
+
+
+    }
+
     return (
         <section className="primary_bg py-5 px-3 px-md-5 fullheight" id="services">
 
@@ -49,7 +62,10 @@ export default function Services() {
 
                                     <h3 className='white-text serviceTitle' style={{ marginTop: "35px" }}>{title}</h3>
 
-                                    <p className='white-text' style={{ fontSize: "20px" }}>{body}</p>
+                                    {truncate(body)}
+
+                                    <a href="/services" className='white-text mt-3 cursor-pointer'>Διαβάστε περισσότερα..</a>
+
 
                                 </div>
                             ))}
@@ -59,7 +75,7 @@ export default function Services() {
                         «Τα εμπόδια δεν μπλοκάρουν το μονοπάτι, είναι το μονοπάτι»
                     </h4>
 
-              
+
 
                 </Stack>
             </Container>
