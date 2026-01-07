@@ -1,5 +1,3 @@
-'use client'
-
 export const dynamic = 'force-static'
 
 import Header from "@/app/components/Header"
