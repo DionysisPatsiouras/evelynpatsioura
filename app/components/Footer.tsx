@@ -1,4 +1,4 @@
-'use client'
+// 'use client'
 
 
 import { Container, Col } from "react-bootstrap"
